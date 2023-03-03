@@ -1,14 +1,18 @@
 ﻿/*
  * 
  *  Program Author: Khadichabonu Valieva
- *  Assignment: Program 2. The Hare and the Tortoise
+ *  Assignment: Program 2. The Hare and the Tortoise BONUS
  *  
- *  Description: Race between the hare and the tortoise using inheritance and polymorphism.
- * 
+ *  Description: Race between two more animals except the hare and the tortoise. 
+ *  
  */
- 
+
 using System;
-using System.Threading;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace RaceAnimal
 {
@@ -132,6 +136,62 @@ namespace RaceAnimal
         }
     }
 
+    //  TWO MORE ANIMALS FOR BONUS PART ----------------------------------------------------------------
+
+    class Monkey : RaceAnimal
+    {
+        public Monkey() : base('M', "Monkey") { }
+
+        public override void Move()
+        {
+            int move = new Random().Next(1, 11);
+
+            if (move >= 1 && move <= 4)
+            {
+                ChangePos(+3); //jump at a normal pace
+            }
+            else if (move >= 6 && move <= 7)
+            {
+                ChangePos(-2); //rest between jumps
+            }
+            else
+            {
+                ChangePos(+5); // big jump to the top of a tree to catch a banana!
+            }
+        }
+    }
+
+    class Pikachu : RaceAnimal
+    {
+        public Pikachu() : base('P', "Pikachu")
+        {
+        }
+
+        public override void Move()
+        {
+            int move = new Random().Next(1, 11);
+            if (move >= 1 && move <= 2)
+            {
+                ChangePos(0); //sleep
+            }
+            else if (move >= 3 && move <= 4)
+            {
+                ChangePos(5); //big jump
+            }
+            else if (move == 5)
+            {
+                ChangePos(-4); //slow walk 
+            }
+            else
+            {
+                ChangePos(1); // roll forward
+            }
+
+        }
+    }
+    //----------------------------------------------------------------------------------------------------------
+
+
     public class Race
     {
         private RaceAnimal animal1;
@@ -143,6 +203,8 @@ namespace RaceAnimal
         {
             animal1 = new Hare();
             animal2 = new Tortoise();
+            animal3 = new Monkey();
+            animal4 = new Pikachu();
             winner = null;
             over = false;
         }
@@ -164,12 +226,23 @@ namespace RaceAnimal
                 over = true;
                 winner = animal2;
             }
+            else if (animal3.IsAtEnd())
+            {
+                over = true;
+                winner = animal3;
+            }
+            else if (animal4.IsAtEnd())
+            {
+                over = true;
+                winner = animal4;
+            }
         }
 
         public void Simulate()
         {
             while (!over)
             {
+                SetupRace();
                 Console.WriteLine(animal1);
                 Console.WriteLine(animal2);
                 Thread.Sleep(1000);
@@ -185,7 +258,7 @@ namespace RaceAnimal
             if (winner == null)
             {
                 Console.WriteLine("The Race was a Tie.");
-               
+
             }
             else
             {
@@ -194,5 +267,85 @@ namespace RaceAnimal
             }
 
         }
+
+        public void SetupRace()
+        {
+            Console.WriteLine("Choose two animals to race: ");
+            Console.WriteLine("1. Tortoise");
+            Console.WriteLine("2. Hare");
+            Console.WriteLine("3. Monkey");
+            Console.WriteLine("4. Pikachu");
+
+            int choice1 = int.Parse(Console.ReadLine());
+            int choice2 = int.Parse(Console.ReadLine());
+
+            if (choice1 == choice2)
+            {
+                Console.WriteLine("Please, select two different animals");
+            }
+            else
+            {
+                switch (choice1)
+                {
+                    case 1:
+                        {
+                            animal1 = new Tortoise();
+                            break;
+                        }
+                    case 2:
+                        {
+                            animal1 = new Hare();
+                            break;
+                        }
+                    case 3:
+                        {
+                            animal1 = new Monkey();
+                            break;
+                        }
+                    case 4:
+                        {
+                            animal1 = new Pikachu();
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Invalid choice. Please choose from the given options.");
+                            break;
+                        }
+                }
+
+
+                switch (choice2)
+                {
+                    case 1:
+                        {
+                            animal2 = new Tortoise();
+                            break;
+                        }
+                    case 2:
+                        {
+                            animal2 = new Hare();
+                            break;
+                        }
+                    case 3:
+                        {
+                            animal2 = new Monkey();
+                            break;
+                        }
+                    case 4:
+                        {
+                            animal2 = new Pikachu();
+                            break;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Invalid choice. Please choose from the given options.");
+                            break;
+                        }
+                }
+            }
+
+        }
     }
+
 }
