@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 
+ *  Program Author: Khadichabonu Valieva
+ *  Assignment: Program 2. The Hare and the Tortoise
+ *  
+ *  Description: Race between the hare and the tortoise using inheritance and polymorphism.
+ * 
+ */
+ 
+using System;
 using System.Threading;
 
 namespace RaceAnimal
