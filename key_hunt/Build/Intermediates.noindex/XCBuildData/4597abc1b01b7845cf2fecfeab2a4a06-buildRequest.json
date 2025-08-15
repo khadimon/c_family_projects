@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "0b173c85a49d3a9193571c4777a5ce04ce247f500f2bf513bfc9d9109c168096"
+    }
+  ],
+  "containerPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/key_hunt/key_hunt.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/key_hunt/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/key_hunt/Build/Products",
+      "derivedDataPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis",
+      "indexDataStoreFolderPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis/key_hunt-gykoorwtwtdnavdvmhjkqpmrvozt/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis/key_hunt-gykoorwtwtdnavdvmhjkqpmrvozt/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/key_hunt/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

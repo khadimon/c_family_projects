@@ -1,0 +1,58 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "f7c04919005ed725c17c1aab814170e4b3c39b0c2f2e47019f61ae2f9e2dddc3"
+    }
+  ],
+  "containerPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/football_championship/football_championship.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/football_championship/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/football_championship/Build/Products",
+      "derivedDataPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis",
+      "indexDataStoreFolderPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis/football_championship-boczlouxtwxttfedglkhkdspobku/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/khadichabonuvalieva/Desktop/khadi_code/khadichabonu_valieva_experimental_analysis/khadichabonu_valieva_experimental_analysis/football_championship-boczlouxtwxttfedglkhkdspobku/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/khadichabonuvalieva/Desktop/Programming/Projects/cplusplus/football_championship/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
