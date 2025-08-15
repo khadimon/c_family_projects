@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/khadichabonuvalieva/Desktop/csc408_final/3d_array'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000388C, symSize: 0xE8 }
+  - { offsetInCU: 0x50, offset: 0x50, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000388C, symSize: 0xE8 }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _create_3d_array, symObjAddr: 0xE8, symBinAddr: 0x100003974, symSize: 0x168 }
+  - { offsetInCU: 0x13A, offset: 0x13A, size: 0x8, addend: 0x0, symName: _input_3d_array, symObjAddr: 0x250, symBinAddr: 0x100003ADC, symSize: 0x128 }
+  - { offsetInCU: 0x1DC, offset: 0x1DC, size: 0x8, addend: 0x0, symName: _copy_3d_array, symObjAddr: 0x378, symBinAddr: 0x100003C04, symSize: 0xE0 }
+  - { offsetInCU: 0x274, offset: 0x274, size: 0x8, addend: 0x0, symName: _output_3d_array, symObjAddr: 0x458, symBinAddr: 0x100003CE4, symSize: 0x12C }
+  - { offsetInCU: 0x316, offset: 0x316, size: 0x8, addend: 0x0, symName: _free_3d_array, symObjAddr: 0x584, symBinAddr: 0x100003E10, symSize: 0xBC }
+...

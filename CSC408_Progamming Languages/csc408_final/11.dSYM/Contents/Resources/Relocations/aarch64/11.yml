@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/khadichabonuvalieva/Desktop/csc408_final/11'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initQueue, symObjAddr: 0x0, symBinAddr: 0x100003B34, symSize: 0x2C }
+  - { offsetInCU: 0x49, offset: 0x49, size: 0x8, addend: 0x0, symName: _initQueue, symObjAddr: 0x0, symBinAddr: 0x100003B34, symSize: 0x2C }
+  - { offsetInCU: 0x6D, offset: 0x6D, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x2C, symBinAddr: 0x100003B60, symSize: 0xA4 }
+  - { offsetInCU: 0xA3, offset: 0xA3, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0xD0, symBinAddr: 0x100003C04, symSize: 0xA0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _front, symObjAddr: 0x170, symBinAddr: 0x100003CA4, symSize: 0x64 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _displayQueue, symObjAddr: 0x1D4, symBinAddr: 0x100003D08, symSize: 0xE8 }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2BC, symBinAddr: 0x100003DF0, symSize: 0x148 }
+...
