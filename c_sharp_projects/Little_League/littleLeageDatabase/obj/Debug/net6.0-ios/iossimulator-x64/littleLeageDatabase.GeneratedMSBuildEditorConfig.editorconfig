@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = littleLeageDatabase
+build_property.ProjectDir = C:\Users\w10118633\Desktop\My Computer\CSC 317 OOP\littleLeageDatabase\littleLeageDatabase\
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/homePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.homePage.xaml
+build_metadata.AdditionalFiles.TargetPath = homePage.xaml
+build_metadata.AdditionalFiles.RelativePath = homePage.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/leaguePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.leaguePage.xaml
+build_metadata.AdditionalFiles.TargetPath = leaguePage.xaml
+build_metadata.AdditionalFiles.RelativePath = leaguePage.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/playerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.playerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = playerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = playerPage.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/settingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.settingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = settingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = settingsPage.xaml
+
+[C:/Users/w10118633/Desktop/My Computer/CSC 317 OOP/littleLeageDatabase/littleLeageDatabase/teamPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = littleLeageDatabase.teamPage.xaml
+build_metadata.AdditionalFiles.TargetPath = teamPage.xaml
+build_metadata.AdditionalFiles.RelativePath = teamPage.xaml

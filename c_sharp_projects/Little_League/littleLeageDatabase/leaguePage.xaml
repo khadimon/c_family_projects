@@ -1,0 +1,23 @@
+<!--
+
+Program Author: Khadichabonu Valieva
+
+Assignment: Little League Database
+
+Description: PlayerPage.xaml of the app
+    
+-->
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="littleLeageDatabase.leaguePage"
+             Title="leaguePage">
+    <ListView ItemSource ="{Binding Teams}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Nmae}" Detail="{Binding Mascot}" Command="{Binding BindingContext.TeamsSelectedCommand, Source={x:Reference leaguePage}}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
