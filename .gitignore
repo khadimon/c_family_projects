@@ -1,0 +1,14 @@
+# macOS system files
+.DS_Store
+
+# C++ build folders
+bin/
+obj/
+
+# C# / Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
