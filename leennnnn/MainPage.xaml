@@ -1,0 +1,126 @@
+﻿
+<!--
+
+Program Author: KKhadichabonu Valieva
+
+Assignment: Program 3 Lennys Car Wash App
+
+Description:
+
+xaml file of the program described in .cs file.
+
+-->
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leennnnn.MainPage"
+             >
+
+    <ScrollView Margin="60">
+        <VerticalStackLayout>
+            <VerticalStackLayout x:Name="SelectionScreen" IsVisible="true">
+                <!-- Lenny's Car Wash Title -->
+                <Label Text="Lenny's Car Wash"
+                   TextColor="CadetBlue"
+                   FontSize="50"
+                   FontAttributes="Bold, Italic"
+                   Margin="10, 20"
+                   HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Select your Wash:" FontSize="25" TextColor="White"
+                           FontAttributes="Bold" Margin="10, 20"/>
+                <StackLayout BackgroundColor="#444455" Padding="10, 10, 10, 20"
+                     Margin="10, 0, 10, 20">
+                    <RadioButton x:Name="rdoWash1" Content="Basic Wash ($10.00)"  Margin="0, 5"/>
+                    <RadioButton x:Name="rdoWash2" Content="Premium Wash ($15.00)" Margin="0, 5"  />
+                    <RadioButton x:Name="rdoWash3" Content="Ultra Wash ($20.00)"  Margin="0, 5"/>
+                </StackLayout>
+
+                <Label Text ="Add Ons?:" FontSize="25"
+                           TextColor="White"
+                           FontAttributes="Bold" Margin="10, 20"/>
+
+                <VerticalStackLayout BackgroundColor="#444455" Padding="10, 10, 10, 20"
+                         Margin="10, 0, 10, 20">
+                    <HorizontalStackLayout>
+                        <CheckBox x:Name="chbxOption1" Margin="0, 5" />
+                        <Label x:Name ="ch_str1" Text ="Air Freshener Add-On ($2.00)" VerticalOptions="Center" WidthRequest="300"/>
+                        <CheckBox x:Name="chbxOption2" Margin="0, 5"/>
+                        <Label x:Name ="ch_str2" Text="Wheel Shine Add-On ($5.00)" VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <CheckBox x:Name="chbxOption3" Margin="0, 5"/>
+                        <Label x:Name ="ch_str3" Text="Wax On Add-On ($5.00)" VerticalOptions="Center" WidthRequest="300"/>
+                        <CheckBox x:Name="chbxOption4" Margin="0, 5"/>
+                        <Label x:Name ="ch_str4" Text="Vacuum Add-On ($2.00)" VerticalOptions="Center"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- Button for Finalizing Selection -->
+                <Button x:Name="finalizeSelectionButton"
+                Text="Finalize Selection"
+                BackgroundColor="#779977"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="20"
+                Margin="10, 0"
+                Clicked="OnFinalizeSelectionClicked"/>
+
+                <Label x:Name="error_message" />
+
+            </VerticalStackLayout>
+
+
+            <Label Text="Error" IsVisible="false" FontSize="20"/>
+            
+            
+            <!-- Receipt Screen -->
+            <VerticalStackLayout x:Name="ReceiptScreen" Margin="30,40,30,0"  IsVisible="false">
+                <VerticalStackLayout Padding="20,10,20,10" Spacing="10" BackgroundColor="#444455">
+                    <Grid RowSpacing="30">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Row 0: Title -->
+                        <Label Grid.Row="0" Text="Receipt"  FontSize="25"  TextColor="White" 
+                           HorizontalOptions="Center" BackgroundColor="#555566" FontAttributes="Bold"/>
+
+                        <!-- Row 1: Receipt Items -->
+                        <ScrollView Grid.Row="1">
+                            <StackLayout BackgroundColor="#444455" >
+                                <Label x:Name="wash_selected" Text="Wash Selected: " FontSize="20"/>
+                                <Label x:Name="add_ons"  Text="Add Ons Purchased: " FontSize="20"/>
+                            </StackLayout>
+                        </ScrollView>
+
+                        <!-- Row 2: Total -->
+                        <StackLayout Grid.Row="2" Orientation="Horizontal" BackgroundColor="#555566">
+                            <Label x:Name="total_cost" Text="Total Cost: $" TextColor="#FFAAAA" BackgroundColor="#555566" FontSize="22" />
+
+                        </StackLayout>
+                    </Grid>
+
+
+                </VerticalStackLayout>
+
+                <!-- Button for New Order  -->
+                <Button x:Name="newOrderButton"
+                Text="New Order"
+                BackgroundColor="#779977"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="20"
+                Margin="10, 20"
+                Clicked="OnNewOrderClicked"/>
+
+            </VerticalStackLayout>
+            
+        </VerticalStackLayout>
+            
+
+    </ScrollView>
+
+</ContentPage>
